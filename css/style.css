@@ -1,0 +1,389 @@
+body {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+}
+
+
+h1 {
+  font-size: 4em;
+  color: #edfced;
+  line-height: 1.2em;
+  display: inline;
+  padding-bottom: 3px;
+}
+
+.name {
+  color: #edfced;
+  float: left;
+}
+
+.purpleRole{
+  color: #2E0854;
+  font-size: 1.6em;
+  margin-top: -10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  color: #666666;
+  line-height: 29px;
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+
+.greyH2{
+  color: #666666;
+}
+
+h3 {
+  font-size: 1.7em;
+  margin-bottom: 3px;
+  padding-left: 1em;
+  clear: left;
+  padding-top: 27px;
+  margin-top: -13px;
+}
+
+.turquoiseH3{
+  color: #006666;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #000033;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  margin-left: -1.4em;
+  margin-top: -11px;
+}
+
+h5{
+  font-size: 1em;
+}
+
+
+/*li.col-md-3.col-xs-6{
+  text-align: -webkit-match-parent;
+  box-sizing: border-box;
+  clear: left;
+} */
+
+#skills{
+  padding-left: 0em;
+}
+
+.contactInfo{
+background-color: #006666;
+margin-left: -22px;
+padding-left: 0em;
+}
+
+#topContacts{
+  background-color: #006666;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 16px;
+  color: #7a7a7a;
+  float: left;
+  padding-left: 1.8em;
+  padding-top: 0.10em;
+  padding-bottom: 0.40em;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 16px;
+  color: #7a7a7a;
+  line-height: 16px;
+  float: right;
+  padding-right: 2em;
+}
+
+a {
+  color: #006666;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+/*change the colors to reflect my website (goodgreenvibes.org)*/
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #000033;
+  line-height: 28px;
+  margin: 20px auto 0 auto;
+}
+
+.headerHeads {
+  color: #edfced;
+}
+
+.blue-text {
+  color: #000033;
+}
+
+.turquoise-text {
+  color: #006666;
+  font-size: 3em;
+}
+
+.turquoiseBackground{
+  background-color: #006666;
+  padding: 5%;
+}
+
+.mintGreen-text {
+  /*font-weight: bold;*/
+  color: #edfced;
+}
+
+.mintGreen {
+  background-color: #edfced;
+  padding-bottom: 10px;
+  clear:both;
+  margin: -20px;
+}
+
+.whiteBack {
+  padding-bottom: 10px;
+  clear:both;
+  margin: -20px;
+}
+
+.linkName {
+  color: purple;
+  margin-left: 20px;
+  font-size: 1em;
+  clear: left;
+  font-size: 1.1em;
+  padding-left: 1.4em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.linkName:hover {
+  color: #000033;
+}
+
+.dark-gray {
+  background-color: #000033;
+}
+
+.iconImage{
+  width: 20px;
+  height: 20px;
+}
+
+#header {
+  background-color: #006666;
+  padding: 5%;
+}
+
+.center-text{
+  color: #edfced;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listElement{
+  float: left;
+  text-indent: -1em;
+  padding-left: 2.8em;
+  padding-bottom: 3px;
+  clear: left;
+  font-size: 1em;
+}
+
+
+img {
+  padding: 10px;
+  width: 50%;
+}
+
+.blueBackground{
+  background-color: #000033;
+  width: 100%;
+  height: 400px;
+  margin-top: -20px;
+  padding-bottom: 3%;
+}
+
+.blueBackground img{
+  cursor: pointer;
+}
+
+.contactIcon{
+width: 15%;
+vertical-align: bottom;
+/*float: left;*/
+padding-top: 10px;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4a4a4a;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+.onlineClasses {
+  color: #006666;
+}
+
+.classInfo{
+  padding-left: 2.8em;
+  margin-bottom: 3px;
+  clear: left;
+}
+
+.classInfo li{
+  margin-left: 6em;
+  clear: left;
+  padding-left: 3em;
+}
+
+.bxslider {
+  /*display: block*/
+ margin: -2px 20% -2px 20%;
+}
+
+.slider {
+  margin: 0 8% 0 8%;
+  height: 100%;
+}
+
+img.biopic {
+  width: 150px;
+  float: right;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding-right: 1em;
+  clear: right;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+  img.biopic {
+    width: 105px;
+  }
+  .purple-role{
+    margin-top: -40px;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  img.biopic {
+    width: 150px;
+    clear: left;
+  }
+  .contactIcon{
+    width: 70%;
+  }
+  .blueBackground{
+    padding-bottom: 200px;
+  }
+}
+
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 50%;
+    clear: left;
+  }
+  .welcome-message {
+    /*display: none;*/
+    /*padding: 20px;*/
+  }
+  
+  .skills, .headerHeads, .contactInfo{
+    text-align: center;
+  }
+
+  .location-text{
+  font-style: italic;
+  font-size: 16px;
+  color: #7a7a7a;
+  float: left;
+  padding-left: 1.8em;
+  padding-top: 0.10em;
+  padding-bottom: 0.10em;
+  clear: both;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  }
+  
+.date-text{
+  font-style: italic;
+  font-size: 16px;
+  color: #7a7a7a;
+  float: left;
+  padding-left: 1.8em;
+  padding-top: 0.10;
+  padding-bottom: 0.40em;
+  clear: both;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 20%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+}
+
+/*use for accordion*/
+.accordion-toggle {
+  cursor: pointer;
+  }
+  .accordion-content {
+    display: none;
+    }
+    
